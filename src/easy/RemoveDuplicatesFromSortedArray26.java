@@ -7,7 +7,6 @@ package easy;
  */
 public class RemoveDuplicatesFromSortedArray26 {
 
-
     public int removeDuplicates(int[] nums) {
         if (null == nums || nums.length == 0) {
             return 0;
@@ -41,7 +40,6 @@ public class RemoveDuplicatesFromSortedArray26 {
             duplicateIndex++;
             start = k;
         }
-
         return duplicateIndex;
     }
 }
