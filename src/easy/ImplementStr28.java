@@ -32,11 +32,18 @@ public class ImplementStr28 {
         while (start < haystackChars.length) {
             if (haystackChars[start] == needleChars[0]) {
                 int i = 1;
-                while (i < needleChars.length && i )
+                while (i < needleChars.length) {
+                    if ((start + i) >= haystackChars.length || haystackChars[start + i] != needleChars[i]) {
+                        break;
+                    }
+                    i++;
+                }
+                if (i == needleChars.length) {
+                    return start;
+                }
+                start++;
             }
         }
-
-
-        return 0;
+        return -1;
     }
 }
