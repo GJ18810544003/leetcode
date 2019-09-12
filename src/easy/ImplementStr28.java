@@ -24,7 +24,6 @@ public class ImplementStr28 {
             return 0;
         }
 
-
         char[] haystackChars = haystack.toCharArray();
         char[] needleChars = needle.toCharArray();
 
