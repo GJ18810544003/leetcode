@@ -1,59 +1,27 @@
 package top100;
 
-import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 
 /**
  * @Description:
-  You are given two non-empty linked lists representing two non-negative integers.
-  The digits are stored in reverse order and each of their nodes contain a single digit.
-  Add the two numbers and return it as a linked list.
-  You may assume the two numbers do not contain any leading zero, except the number 0 itself.
-
-  Example:
-
-  Input: (2 -> 4 -> 3) + (5 -> 6 -> 4)
-  Output: 7 -> 0 -> 8
-  Explanation: 342 + 465 = 807.
-
-   media
+ * You are given two non-empty linked lists representing two non-negative integers.
+ * The digits are stored in reverse order and each of their nodes contain a single digit.
+ * Add the two numbers and return it as a linked list.
+ * You may assume the two numbers do not contain any leading zero, except the number 0 itself.
+ *
+ * Example:
+ * Input: (2 -> 4 -> 3) + (5 -> 6 -> 4)
+ * Output: 7 -> 0 -> 8
+ * Explanation: 342 + 465 = 807.
+ *
+ * serial: 2
+ * difficulty: medium
+ *
  * @Author: guojun
  * @Date: 2019/12/17
  */
 public class AddTwoNumbers {
-
-
-    //[9]
-    //[1,9,9,9,9,9,9,9,9,9]
-    //Output
-    //[8,0,4,5,6,0,0,1,4,1]
-    //Expected
-    //[0,0,0,0,0,0,0,0,0,0,1]
-
-/*    [1]
-            [9,9]
-    Output:
-            [0,1]
-    Expected:
-            [0,0,1]*/
-
-/*[9]
-        [1,9,9,9,9,9,8,9,9,9]
-    Output
-[0,0,0,0,0,0,9]
-    Expected
-[0,0,0,0,0,0,9,9,9,9]*/
-
-
-/*
-        [0,8,6,5,6,8,3,5,7]
-        [6,7,8,0,8,5,8,9,7]
-    Output
-        [6,7,8,0,8,5,8,9,7]
-    Expected
-        [6,5,5,6,4,4,2,5,5,1]
-*/
 
     public static void main(String[] args) {
         List<ListNode> nodeList = new ArrayList<>();
