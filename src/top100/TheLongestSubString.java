@@ -1,5 +1,8 @@
 package top100;
 
+import java.util.HashSet;
+import java.util.Set;
+
 /**
  * @Description:
  *
@@ -29,6 +32,29 @@ package top100;
 public class TheLongestSubString {
 
     public int lengthOfLongestSubstring(String s) {
+        if (s == null) {
+            return 0;
+        }
 
+        if (s.length() == 1) {
+            return 1;
+        }
+
+        int left = 0;
+        int right = 0;
+        int ans = 0;
+        Set<Character> set = new HashSet<>();
+        while (right < s.length()) {
+            Character c = s.charAt(right);
+            if (!set.contains(c)) {
+                set.add(c);
+                ans = Math.max(ans, right - left + 1);
+                right++;
+            }else {
+                set.remove(s.charAt(left));
+                left++;
+            }
+        }
+        return ans;
     }
 }
