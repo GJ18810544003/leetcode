@@ -1,6 +1,8 @@
 package top100;
 
+import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Map;
 import java.util.Set;
 
 /**
@@ -31,7 +33,34 @@ import java.util.Set;
  */
 public class TheLongestSubString {
 
+    // 滑动窗口，最新2020-10-15
     public int lengthOfLongestSubstring(String s) {
+        if (s == null) {
+            return 0;
+        }
+
+        if (s.length() == 1) {
+            return 1;
+        }
+
+        int left = 0;
+        int right = 0;
+        int ans = 0;
+        Map<Character, Integer> map = new HashMap<>();
+        while (right < s.length()) {
+            if (map.containsKey(s.charAt(right))) {
+                ans = Math.max(ans, right - left);
+                left = map.get(s.charAt(right)) + 1;
+            }
+            map.put(s.charAt(right), right);
+            right++;
+        }
+
+        ans = Math.max(ans, right - left);
+        return ans;
+    }
+
+    public int lengthOfLongestSubstring2(String s) {
         if (s == null) {
             return 0;
         }
@@ -54,6 +83,22 @@ public class TheLongestSubString {
                 set.remove(s.charAt(left));
                 left++;
             }
+        }
+        return ans;
+    }
+
+    public int lengthOfLongestSubstring3(String s) {
+        int n = s.length(), ans = 0;
+        Map<Character, Integer> map = new HashMap<>();
+        // try to extend the range [i, j]
+        for (int j = 0, i = 0; j < n; j++) {
+            if (map.containsKey(s.charAt(j))) {
+                i = Math.max(map.get(s.charAt(j)), i);
+            }
+            ans = Math.max(ans, j - i + 1);
+            map.put(s.charAt(j), j + 1);
+
+
         }
         return ans;
     }
