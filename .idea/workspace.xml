@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="575a767b-1918-4ea5-8822-7bd1985fc90b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/baodian/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/baodian/Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/baodian/array/MinDiff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/baodian/linkedlist/LastKElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/baodian/linkedlist/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/baodian/linkedlist/MinDiff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/baodian/linkedlist/OrderLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/baodian/linkedlist/ReverseLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/baodian/sort/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/baodian/sort/InsertSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/baodian/sort/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/baodian/sort/SelectSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/intervew/LRU.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/intervew/TwoNumsSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sort/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/Father.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/PrivateOverride.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/top100/TheLongestSubString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/top100/TheLongestSubString.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1ipM9IcmnY104AFsB6G10riqbr7" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../douyu/douyuProjects-20201020/douyuProjects/wsd-settle-java" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="SDK Location" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RunManager" selected="Application.QuickSort">
+    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baodian.sort.BubbleSort" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="baodian.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InsertSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baodian.sort.InsertSort" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="baodian.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baodian.sort.QuickSort" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="baodian.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverseLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baodian.linkedlist.ReverseLinkedList" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="baodian.linkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SelectSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baodian.sort.SelectSort" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="baodian.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.QuickSort" />
+        <item itemvalue="Application.BubbleSort" />
+        <item itemvalue="Application.InsertSort" />
+        <item itemvalue="Application.SelectSort" />
+        <item itemvalue="Application.ReverseLinkedList" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="575a767b-1918-4ea5-8822-7bd1985fc90b" name="Default Changelist" comment="" />
+      <created>1567242809388</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1567242809388</updated>
+      <workItem from="1567242813293" duration="2676000" />
+      <workItem from="1567326887768" duration="306000" />
+      <workItem from="1568119912222" duration="599000" />
+      <workItem from="1568511862284" duration="618000" />
+      <workItem from="1602599930409" duration="1284000" />
+      <workItem from="1602680321559" duration="1408000" />
+      <workItem from="1602899172654" duration="1333000" />
+      <workItem from="1607607300169" duration="1781000" />
+      <workItem from="1607609114127" duration="29000" />
+      <workItem from="1608268835055" duration="848000" />
+      <workItem from="1608269779181" duration="16000" />
+      <workItem from="1611664903897" duration="672000" />
+      <workItem from="1611665598074" duration="418000" />
+      <workItem from="1612357454636" duration="8035000" />
+      <workItem from="1612408150754" duration="594000" />
+      <workItem from="1612409697831" duration="270000" />
+      <workItem from="1612410244303" duration="7000" />
+      <workItem from="1612410413995" duration="72000" />
+      <workItem from="1612410728963" duration="166000" />
+      <workItem from="1612411664478" duration="69000" />
+      <workItem from="1612411757744" duration="31000" />
+      <workItem from="1612411802746" duration="59000" />
+      <workItem from="1612411876798" duration="15000" />
+      <workItem from="1612411906983" duration="4278000" />
+      <workItem from="1615532871760" duration="388000" />
+      <workItem from="1615533287165" duration="39000" />
+      <workItem from="1615533347438" duration="65000" />
+      <workItem from="1615533436507" duration="248000" />
+      <workItem from="1618646111590" duration="1364000" />
+      <workItem from="1620804789194" duration="983000" />
+      <workItem from="1621238180526" duration="909000" />
+      <workItem from="1622280510575" duration="807000" />
+      <workItem from="1623486188180" duration="657000" />
+      <workItem from="1623768033877" duration="5303000" />
+      <workItem from="1623824007231" duration="3240000" />
+      <workItem from="1623932176066" duration="4050000" />
+      <workItem from="1624104198129" duration="3799000" />
+      <workItem from="1624158216041" duration="1220000" />
+      <workItem from="1624239127639" duration="2903000" />
+      <workItem from="1624348515669" duration="1364000" />
+      <workItem from="1624515011406" duration="2267000" />
+      <workItem from="1624601900790" duration="2406000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/baodian/linkedlist/OrderLinkedList.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

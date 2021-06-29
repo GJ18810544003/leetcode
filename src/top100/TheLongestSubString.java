@@ -33,8 +33,12 @@ import java.util.Set;
  */
 public class TheLongestSubString {
 
+    public static void main(String[] args) {
+        System.out.println(lengthOfLongestSubstring("abba"));
+    }
+
     // 滑动窗口，最新2020-10-15
-    public int lengthOfLongestSubstring(String s) {
+    public static int lengthOfLongestSubstring(String s) {
         if (s == null) {
             return 0;
         }
@@ -50,7 +54,7 @@ public class TheLongestSubString {
         while (right < s.length()) {
             if (map.containsKey(s.charAt(right))) {
                 ans = Math.max(ans, right - left);
-                left = map.get(s.charAt(right)) + 1;
+                left = Math.max(map.get(s.charAt(right)) + 1, left);
             }
             map.put(s.charAt(right), right);
             right++;
